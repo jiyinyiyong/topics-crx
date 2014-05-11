@@ -1,0 +1,20 @@
+{
+  "name": "topics.tiye.me",
+  "manifest_version": 2,
+  "version" : "0.0.0",
+  "icons" : {
+    "16" : "png/topic.png",
+    "128" : "png/topic.png"
+  },
+  "background": {
+    "scripts": [
+      "bower_components/zepto/zepto.js",
+      "js/click.js"
+    ]
+  },
+  "permissions" : [
+    "cookies",
+    "contextMenus",
+    "http://*/"
+    ]
+}
