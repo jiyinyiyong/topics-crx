@@ -21,7 +21,7 @@ chrome.contextMenus.create
       token: local.token
 
     $.ajax
-      url: 'http://local.tiye.me/topic'
+      url: 'http://topics-api.tiye.me/topic'
       type: 'POST'
       data: data
       xhrFields:
