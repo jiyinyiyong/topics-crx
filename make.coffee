@@ -1,5 +1,4 @@
 #!/usr/bin/env coffee
-project = 'topics-crx'
 
 require 'shelljs/make'
 path = require 'path'
